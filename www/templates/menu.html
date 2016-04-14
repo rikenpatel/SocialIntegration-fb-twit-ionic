@@ -1,0 +1,32 @@
+<ion-side-menus enable-menu-with-back-views="true">
+  <ion-side-menu-content>
+    <ion-nav-bar class="nav-bar-style">
+      <ion-nav-back-button>
+      </ion-nav-back-button>
+
+      <ion-nav-buttons side="left">
+        <button class="button button-icon button-clear ion-navicon color-white" menu-toggle="left">
+        </button>
+      </ion-nav-buttons>
+    </ion-nav-bar>
+    <ion-nav-view name="menuContent"></ion-nav-view>
+  </ion-side-menu-content>
+
+  <ion-side-menu side="left">
+    <ion-header-bar menu-close class="theme-background" style="height: 120px;padding-top: 50px;">
+      <a class="item item-avatar" style="background-color: transparent!important;border: transparent;">
+        <img src="img/ionic.png">
+        <p class="color-white">{{name}}</p>
+        <!--<p class="font-size-10 color-white">michel.jack@gmail.com</p>-->
+      </a>
+    </ion-header-bar>
+    <ion-content style="margin-top: 75px;">
+      <ion-list>
+        <a menu-close class="item item-icon-left left-menu-item-padding-left menu-icon-color border-transparent" ng-click="logout()">
+          <!--<i class="icon ion-log-out font-size-20"></i>-->
+          <span class="font-size-14 color-light-black">Logout</span>
+        </a>
+      </ion-list>
+    </ion-content>
+  </ion-side-menu>
+</ion-side-menus>

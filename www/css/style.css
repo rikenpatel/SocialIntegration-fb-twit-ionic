@@ -1,0 +1,180 @@
+/* Empty. Add your own CSS if you like */
+.text-center{
+  text-align: center;
+}
+
+.background-center{
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  /*  transform:translateX(-25%) translateY(-25%);*/
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -o-transform: translateX(-50%) translateY(-50%);
+  color: #ffffff;
+}
+
+.item-input{
+  padding: 15px 0 5px 0;
+}
+
+.font-size-12{
+  font-size: 12px!important;
+}
+
+.color-white{
+  color: white!important;
+  font-size: 15px!important;
+}
+
+.left-menu-item-padding-left{
+  padding: 10px 10px 10px 54px;
+}
+
+.categories-item{
+  padding: 10px 10px 10px 10px;
+}
+
+.font-size-14{
+  font-size: 14px;
+}
+
+.margin-top-5{
+  margin-top: 5px;
+}
+
+.menu-icon-color{
+  color: #F28322!important;
+}
+
+.color-black{
+  color: black;
+}
+
+.background-orange{
+  background-color: #F28322;
+}
+
+.floating-label-color{
+  color: #F28322;
+}
+
+.padding-7{
+  padding: 7px;
+}
+
+.margin-left-5{
+  margin-left: 5px;
+}
+
+.width-100{
+  width: 100%;
+}
+
+.margin-top-30{
+  margin-top: 30px;
+}
+
+.login-button{
+  background-color: orange;
+}
+
+.login-button.activated{
+  background-color: #3276B1;
+  color: white;
+}
+
+.facebook-button{
+  background-color: #3b5998;
+  color: white!important;
+}
+
+.facebook-button.activated{
+  background-color: #476bb8;
+  color: white!important;
+}
+
+.twitter-button{
+  background-color: #55acee;
+  color: white!important;
+}
+
+.twitter-button.activated{
+  background-color: #74bbf1;
+  color: white!important;
+}
+
+.margin-top-20{
+  margin-top: 20px;
+}
+
+.margin-top-10{
+  margin-top: 10px;
+}
+
+.radio-button-bg{
+  height: 20px;
+  width: 20px;
+  background-color: white;
+}
+
+.color-gray{
+  color: gray!important;
+}
+
+.nav-bar-style{
+  background-color: #5D5D5D;
+  color: white;
+}
+
+.color-light-black{
+  color: #5D5D5D!important;
+  margin-left: -30px!important;
+}
+
+.color-light-gray{
+  color: #DFDFDF;
+}
+
+.theme-background{
+  background-color: #5D5D5D!important;
+}
+
+.padding-0{
+  padding: 0;
+}
+
+.padding-20{
+  padding: 20px!important;
+}
+
+.name-div{
+  text-align: center;
+}
+
+.name-text{
+  font-size: 18px;
+  color: #5D5D5D;
+  font-weight: 600;
+}
+
+.name-value{
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.input-border{
+  border: 1px solid #DFDFDF!important;
+  padding-left: 10px!important;
+  border-radius: 3px;
+}
+
+.send-btn-padding{
+  padding-left: 42px;
+  padding-right: 42px;
+  margin-top: 50px;
+}
+
+.font-size-20{
+  font-size: 20px!important;
+}

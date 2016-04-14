@@ -1,0 +1,23 @@
+<ion-view hide-back-button="true" view-title="Home">
+  <ion-content class="padding name-div">
+
+
+
+    <div class="row  margin-top-20">
+      <div class="col name-text">Name: </div>
+      <div class="col name-value">{{name}}</div>
+    </div>
+
+    <div class="row  margin-top-30">
+      <div class="col name-text margin-top-5">Message: </div>
+      <div class="col name-value">
+        <input class="input-border" type="text" placeholder="Enter Your Message" ng-model="message.text"/>
+      </div>
+    </div>
+
+    <button class="button button-calm send-btn-padding" ng-click="sendMessage()">
+      Send
+    </button>
+
+  </ion-content>
+</ion-view>
